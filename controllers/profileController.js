@@ -59,7 +59,7 @@ async function getProfile(req, res) {
 
     return res.status(200).json({
       success: true,
-      user: profileData
+      profile: profileData  // Changed from 'user' to 'profile'
     });
 
   } catch (error) {
