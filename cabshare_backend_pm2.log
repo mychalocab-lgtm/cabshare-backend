@@ -1,0 +1,525 @@
+[TAILING] Tailing last 500 lines for [all] processes (change the value with --lines option)
+/home/ubuntu/.pm2/pm2.log last 500 lines:
+PM2        | 2025-10-04T10:51:29: PM2 log: ===============================================================================
+PM2        | 2025-10-04T10:51:29: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+PM2        | 2025-10-04T10:51:29: PM2 log: Time                 : Sat Oct 04 2025 10:51:29 GMT+0000 (Coordinated Universal Time)
+PM2        | 2025-10-04T10:51:29: PM2 log: PM2 version          : 6.0.13
+PM2        | 2025-10-04T10:51:29: PM2 log: Node.js version      : 20.19.5
+PM2        | 2025-10-04T10:51:29: PM2 log: Current arch         : x64
+PM2        | 2025-10-04T10:51:29: PM2 log: PM2 home             : /home/ubuntu/.pm2
+PM2        | 2025-10-04T10:51:29: PM2 log: PM2 PID file         : /home/ubuntu/.pm2/pm2.pid
+PM2        | 2025-10-04T10:51:29: PM2 log: RPC socket file      : /home/ubuntu/.pm2/rpc.sock
+PM2        | 2025-10-04T10:51:29: PM2 log: BUS socket file      : /home/ubuntu/.pm2/pub.sock
+PM2        | 2025-10-04T10:51:29: PM2 log: Application log path : /home/ubuntu/.pm2/logs
+PM2        | 2025-10-04T10:51:29: PM2 log: Worker Interval      : 30000
+PM2        | 2025-10-04T10:51:29: PM2 log: Process dump file    : /home/ubuntu/.pm2/dump.pm2
+PM2        | 2025-10-04T10:51:29: PM2 log: Concurrent actions   : 2
+PM2        | 2025-10-04T10:51:29: PM2 log: SIGTERM timeout      : 1600
+PM2        | 2025-10-04T10:51:29: PM2 log: Runtime Binary       : /usr/bin/node
+PM2        | 2025-10-04T10:51:29: PM2 log: ===============================================================================
+PM2        | 2025-10-04T10:51:29: PM2 log: App [cabshare-backend:0] starting in -fork mode-
+PM2        | 2025-10-04T10:51:29: PM2 log: App [cabshare-backend:0] online
+
+/home/ubuntu/.pm2/logs/cabshare-backend-error.log last 500 lines:
+/home/ubuntu/.pm2/logs/cabshare-backend-out.log last 500 lines:
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/.env',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /.env
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'POST',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: {}
+0|cabshare | }
+0|cabshare | POST /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'POST',
+0|cabshare |   path: '/boaform/admin/formLogin',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: {}
+0|cabshare | }
+0|cabshare | POST /boaform/admin/formLogin
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/favicon.ico',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /favicon.ico
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/favicon.ico',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /favicon.ico
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/security.txt',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /security.txt
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/api/profile/me',
+0|cabshare |   headers: {
+0|cabshare |     authorization: 'Bearer [REDACTED]',
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /api/profile/me
+0|cabshare | 🔐 Auth Middleware - Processing request: GET /me
+0|cabshare | 🔍 Auth headers received: {
+0|cabshare |   hasAuthHeader: true,
+0|cabshare |   userIdHeader: undefined,
+0|cabshare |   userEmailHeader: undefined,
+0|cabshare |   userPhoneHeader: undefined,
+0|cabshare |   userNameHeader: undefined,
+0|cabshare |   authProviderHeader: undefined
+0|cabshare | }
+0|cabshare | 📋 Token extracted, length: 261
+0|cabshare | 🔄 Attempting JWT token verification...
+0|cabshare | 🔑 JWT_SECRET configured: YES
+0|cabshare | 🔑 JWT_SECRET length: 32
+0|cabshare | ⚠️ JWT verification failed: invalid signature
+0|cabshare | ⚠️ JWT error name: JsonWebTokenError
+0|cabshare | ⚠️ JWT error details: JsonWebTokenError: invalid signature
+0|cabshare |     at /home/ubuntu/cabshare-backend/node_modules/jsonwebtoken/verify.js:171:19
+0|cabshare |     at getSecret (/home/ubuntu/cabshare-backend/node_modules/jsonwebtoken/verify.js:97:14)
+0|cabshare |     at module.exports [as verify] (/home/ubuntu/cabshare-backend/node_modules/jsonwebtoken/verify.js:101:10)
+0|cabshare |     at unifiedAuthMiddleware (/home/ubuntu/cabshare-backend/middleware/unifiedAuth.js:54:29)
+0|cabshare |     at Layer.handle [as handle_request] (/home/ubuntu/cabshare-backend/node_modules/express/lib/router/layer.js:95:5)
+0|cabshare |     at trim_prefix (/home/ubuntu/cabshare-backend/node_modules/express/lib/router/index.js:328:13)
+0|cabshare |     at /home/ubuntu/cabshare-backend/node_modules/express/lib/router/index.js:286:9
+0|cabshare |     at Function.process_params (/home/ubuntu/cabshare-backend/node_modules/express/lib/router/index.js:346:12)
+0|cabshare |     at next (/home/ubuntu/cabshare-backend/node_modules/express/lib/router/index.js:280:10)
+0|cabshare |     at Function.handle (/home/ubuntu/cabshare-backend/node_modules/express/lib/router/index.js:175:3)
+0|cabshare | 🔄 Attempting Supabase token verification...
+0|cabshare | ❌ Supabase token verification failed: invalid JWT: unable to parse or verify signature, token signature is invalid: signature is invalid
+0|cabshare | ❌ No valid authentication found
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'POST',
+0|cabshare |   path: '/api/auth/widget/verify',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: {
+0|cabshare |     accessToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXF1ZXN0SWQiOiIzNTZhNjU3MTYxNmEzOTM3MzEzMDM1MzEiLCJjb21wYW55SWQiOjQ3MTI2OX0.XiVBLHXCHlJwVaAzCrZ2sLO36jZgnLEy-6UbCGgmpco',
+0|cabshare |     phoneNumber: '918147253466'
+0|cabshare |   }
+0|cabshare | }
+0|cabshare | POST /api/auth/widget/verify
+0|cabshare | 
+0|cabshare | 🔐 VERIFYING WIDGET TOKEN
+0|cabshare | Phone Number: 918147253466
+0|cabshare | Full Name: not provided
+0|cabshare | 🔑 JWT_SECRET configured: YES
+0|cabshare | 🔑 JWT_SECRET length: 32
+0|cabshare | 📦 Token payload: {
+0|cabshare |   "requestId": "356a6571616a393731303531",
+0|cabshare |   "companyId": 471269
+0|cabshare | }
+0|cabshare | ✅ Token validated, phone: +918147253466
+0|cabshare | 
+0|cabshare | 👤 CREATING OR LOGGING IN USER
+0|cabshare | Phone: +918147253466
+0|cabshare | ✅ Existing user - ID: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912
+0|cabshare | 🔐 Generating JWT token...
+0|cabshare | 🔑 Using JWT_SECRET length: 32
+0|cabshare | ✅ JWT token generated, length: 276
+0|cabshare | 🎉 AUTHENTICATION SUCCESSFUL!
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/api/profile/me',
+0|cabshare |   headers: {
+0|cabshare |     authorization: 'Bearer [REDACTED]',
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /api/profile/me
+0|cabshare | 🔐 Auth Middleware - Processing request: GET /me
+0|cabshare | 🔍 Auth headers received: {
+0|cabshare |   hasAuthHeader: true,
+0|cabshare |   userIdHeader: undefined,
+0|cabshare |   userEmailHeader: undefined,
+0|cabshare |   userPhoneHeader: undefined,
+0|cabshare |   userNameHeader: undefined,
+0|cabshare |   authProviderHeader: undefined
+0|cabshare | }
+0|cabshare | 📋 Token extracted, length: 276
+0|cabshare | 🔄 Attempting JWT token verification...
+0|cabshare | 🔑 JWT_SECRET configured: YES
+0|cabshare | 🔑 JWT_SECRET length: 32
+0|cabshare | ✅ JWT verified successfully!
+0|cabshare | 📋 Decoded payload: {
+0|cabshare |   "id": "310ccd4b-8f6d-4a55-a6c0-7b5ce5699912",
+0|cabshare |   "phone": "+918147253466",
+0|cabshare |   "role": "rider",
+0|cabshare |   "full_name": "Piyush Chopda",
+0|cabshare |   "iat": 1759683683,
+0|cabshare |   "exp": 1760288483
+0|cabshare | }
+0|cabshare | ✅ JWT token verified for user: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912 - Piyush Chopda
+0|cabshare | ✅ Authentication successful: {
+0|cabshare |   userId: '310ccd4b-8f6d-4a55-a6c0-7b5ce5699912',
+0|cabshare |   phone: '+918147253466',
+0|cabshare |   provider: 'msg91',
+0|cabshare |   role: 'rider'
+0|cabshare | }
+0|cabshare | 🔵 GET Profile request
+0|cabshare |   - Final userId: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912
+0|cabshare | ✅ Profile found: Piyush Chopda
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/.env',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /.env
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'POST',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: {}
+0|cabshare | }
+0|cabshare | POST /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/api/profile/me',
+0|cabshare |   headers: {
+0|cabshare |     authorization: 'Bearer [REDACTED]',
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /api/profile/me
+0|cabshare | 🔐 Auth Middleware - Processing request: GET /me
+0|cabshare | 🔍 Auth headers received: {
+0|cabshare |   hasAuthHeader: true,
+0|cabshare |   userIdHeader: undefined,
+0|cabshare |   userEmailHeader: undefined,
+0|cabshare |   userPhoneHeader: undefined,
+0|cabshare |   userNameHeader: undefined,
+0|cabshare |   authProviderHeader: undefined
+0|cabshare | }
+0|cabshare | 📋 Token extracted, length: 276
+0|cabshare | 🔄 Attempting JWT token verification...
+0|cabshare | 🔑 JWT_SECRET configured: YES
+0|cabshare | 🔑 JWT_SECRET length: 32
+0|cabshare | ✅ JWT verified successfully!
+0|cabshare | 📋 Decoded payload: {
+0|cabshare |   "id": "310ccd4b-8f6d-4a55-a6c0-7b5ce5699912",
+0|cabshare |   "phone": "+918147253466",
+0|cabshare |   "role": "rider",
+0|cabshare |   "full_name": "Piyush Chopda",
+0|cabshare |   "iat": 1759683683,
+0|cabshare |   "exp": 1760288483
+0|cabshare | }
+0|cabshare | ✅ JWT token verified for user: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912 - Piyush Chopda
+0|cabshare | ✅ Authentication successful: {
+0|cabshare |   userId: '310ccd4b-8f6d-4a55-a6c0-7b5ce5699912',
+0|cabshare |   phone: '+918147253466',
+0|cabshare |   provider: 'msg91',
+0|cabshare |   role: 'rider'
+0|cabshare | }
+0|cabshare | 🔵 GET Profile request
+0|cabshare |   - Final userId: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912
+0|cabshare | ✅ Profile found: Piyush Chopda
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/api/profile/me',
+0|cabshare |   headers: {
+0|cabshare |     authorization: 'Bearer [REDACTED]',
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /api/profile/me
+0|cabshare | 🔐 Auth Middleware - Processing request: GET /me
+0|cabshare | 🔍 Auth headers received: {
+0|cabshare |   hasAuthHeader: true,
+0|cabshare |   userIdHeader: undefined,
+0|cabshare |   userEmailHeader: undefined,
+0|cabshare |   userPhoneHeader: undefined,
+0|cabshare |   userNameHeader: undefined,
+0|cabshare |   authProviderHeader: undefined
+0|cabshare | }
+0|cabshare | 📋 Token extracted, length: 276
+0|cabshare | 🔄 Attempting JWT token verification...
+0|cabshare | 🔑 JWT_SECRET configured: YES
+0|cabshare | 🔑 JWT_SECRET length: 32
+0|cabshare | ✅ JWT verified successfully!
+0|cabshare | 📋 Decoded payload: {
+0|cabshare |   "id": "310ccd4b-8f6d-4a55-a6c0-7b5ce5699912",
+0|cabshare |   "phone": "+918147253466",
+0|cabshare |   "role": "rider",
+0|cabshare |   "full_name": "Piyush Chopda",
+0|cabshare |   "iat": 1759683683,
+0|cabshare |   "exp": 1760288483
+0|cabshare | }
+0|cabshare | ✅ JWT token verified for user: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912 - Piyush Chopda
+0|cabshare | ✅ Authentication successful: {
+0|cabshare |   userId: '310ccd4b-8f6d-4a55-a6c0-7b5ce5699912',
+0|cabshare |   phone: '+918147253466',
+0|cabshare |   provider: 'msg91',
+0|cabshare |   role: 'rider'
+0|cabshare | }
+0|cabshare | 🔵 GET Profile request
+0|cabshare |   - Final userId: 310ccd4b-8f6d-4a55-a6c0-7b5ce5699912
+0|cabshare | ✅ Profile found: Piyush Chopda
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/login/login.html',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /login/login.html
+0|cabshare | 🐛 Debug Auth Info: {
+0|cabshare |   method: 'GET',
+0|cabshare |   path: '/https://%22%20+%20location.hostname%20+%20%28%28%27httpsLocalPort%27%20in%20window%20&&%20httpsLocalPort%20==%20%22%22%29%20',
+0|cabshare |   headers: {
+0|cabshare |     authorization: undefined,
+0|cabshare |     'x-user-id': undefined,
+0|cabshare |     'x-user-email': undefined,
+0|cabshare |     'x-user-phone': undefined,
+0|cabshare |     'x-auth-provider': undefined
+0|cabshare |   },
+0|cabshare |   query: {},
+0|cabshare |   body: undefined
+0|cabshare | }
+0|cabshare | GET /https://%22%20+%20location.hostname%20+%20%28%28%27httpsLocalPort%27%20in%20window%20&&%20httpsLocalPort%20==%20%22%22%29%20
+
