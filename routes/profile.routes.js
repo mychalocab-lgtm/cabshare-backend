@@ -119,7 +119,7 @@ router.get('/me', async (req, res) => {
     console.log('✅ Profile found:', combinedProfile.full_name);
     res.json({ 
       success: true,
-      user: combinedProfile 
+      profile: combinedProfile 
     });
 
   } catch (error) {
