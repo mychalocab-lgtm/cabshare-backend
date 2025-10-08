@@ -13,14 +13,12 @@ app.use(express.json());
 
 // Import enhanced auth middleware
 const {
-  unifiedAuthMiddleware,
-  optionalAuthMiddleware,
-  debugAuthMiddleware,
+  unifiedAuthMiddleware
 } = require("./middleware/unifiedAuth");
 
 // Add debug middleware in development
 if (process.env.NODE_ENV === "development") {
-  app.use(debugAuthMiddleware);
+  // app.use(debugAuthMiddleware); // Removed: not defined
 }
 
 // Minimal logging
@@ -65,8 +63,8 @@ app.use("/auth", authRouter);
 app.use("/user-management", userManagementRouter);
 app.use("/cities", citiesRouter);
 app.use("/routes", routesRouter);
-app.use("/profiles", optionalAuthMiddleware, profilesRouter);
-app.use("/rides", ridesRouter);
+app.use("/profiles", profilesRouter); // Public access, no auth middleware
+app.use("/rides", ridesRouter); // Public access, no auth middleware
 app.use("/bookings", bookingsRouter);
 app.use("/messages", unifiedAuthMiddleware, messagesRouter);
 app.use("/inbox", unifiedAuthMiddleware, inboxRouter);

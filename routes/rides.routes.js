@@ -3,7 +3,9 @@ const express = require('express');
 const router = express.Router();
 const { supabase } = require('../supabase');
 // ADD: Import unified authentication middleware
-const { unifiedAuthMiddleware, optionalAuth } = require('../middleware/unifiedAuth');
+const { unifiedAuthMiddleware } = require('../middleware/unifiedAuth');
+// Public access fallback middleware
+const publicAccess = (req, res, next) => next();
 
 // ADD: Apply unified auth to routes that need authentication
 // Use optionalAuth for search (public) and unifiedAuthMiddleware for user-specific operations
@@ -173,7 +175,7 @@ router.post('/', unifiedAuthMiddleware, async (req, res) => {
 });
 
 // GET /rides/search - Search rides using current schema (public access with optional auth)
-router.get('/search', optionalAuth, async (req, res) => {
+router.get('/search', publicAccess, async (req, res) => {
   try {
     const { 
       from, to, when, type, driver_id, limit = 50
@@ -442,7 +444,7 @@ router.get('/mine', unifiedAuthMiddleware, async (req, res) => {
 });
 
 // GET /rides/:id - Get single ride (public access)
-router.get('/:id', optionalAuth, async (req, res) => {
+router.get('/:id', publicAccess, async (req, res) => {
   try {
     const { data, error } = await supabase
       .from('rides')
@@ -645,7 +647,7 @@ router.delete('/:id', unifiedAuthMiddleware, async (req, res) => {
 
 
 // GET /rides - Legacy compatibility endpoint
-router.get('/', optionalAuth, async (req, res) => {
+router.get('/', publicAccess, async (req, res) => {
   // Redirect to search with same params
   try {
     req.url = '/search' + (req.url.includes('?') ? req.url.substring(req.url.indexOf('?')) : '');
