@@ -7,8 +7,21 @@ const cors = require("cors");
 
 const app = express();
 
-// Basic middleware
-app.use(cors({ origin: true, credentials: false }));
+// Enhanced CORS middleware for dynamic frontend IPs
+const allowedOriginRegex = /^(http:\/\/(localhost|127\.0\.0\.1|192\.168\.[0-9]{1,3}\.[0-9]{1,3}|10\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}):\d{1,5})$/;
+app.use(cors({
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, curl, etc.)
+    if (!origin) return callback(null, true);
+    // Allow local IPs and localhost
+    if (allowedOriginRegex.test(origin)) return callback(null, true);
+    // In development, allow all origins
+    if (process.env.NODE_ENV !== 'production') return callback(null, true);
+    // Otherwise, block
+    return callback(new Error('Not allowed by CORS: ' + origin));
+  },
+  credentials: true
+}));
 app.use(express.json());
 
 // Import enhanced auth middleware
